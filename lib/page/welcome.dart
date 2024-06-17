@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoppingapp/page/Homepage/Homepage.dart';
+import 'package:shoppingapp/page/Homepage/Homepagemain.dart';
 import 'package:shoppingapp/page/splash_content.dart';
 
 class welcome1 extends StatefulWidget {
@@ -57,7 +57,7 @@ class _welcome1State extends State<welcome1> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => HomePage(),
+                            builder: (context) => Homepagemain(),
                           ),
                         );
                       },

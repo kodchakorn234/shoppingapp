@@ -31,7 +31,7 @@ class _FavoritepageState extends State<Favoritepage> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade900,
         title: const Padding(
-          padding: EdgeInsets.only(left: 140),
+          padding: EdgeInsets.only(left: 100),
           child: Text(
             'Favorite',
             style: TextStyle(fontSize: 25, color: Colors.white),
